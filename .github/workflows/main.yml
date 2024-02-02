@@ -17,7 +17,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id || github.event_name == 'schedule' # 自己star启动或者schedule触发
     steps:
     - name: Setup timezone
-      uses: szenius/set-timezone@v1.2
+      uses: zcong1993/set-timezone@v2.0.0
       with:
         timezone: Asia/Shanghai
     - uses: actions/checkout@v4
