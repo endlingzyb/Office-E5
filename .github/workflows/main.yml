@@ -22,7 +22,7 @@ jobs:
         timezone: Asia/Shanghai
     - uses: actions/checkout@v4
     - name: Set up JDK 1.8
-      uses: actions/setup-java@v2
+      uses: actions/setup-java@v3
       with:
         distribution: 'adopt'
         java-version: '8'
